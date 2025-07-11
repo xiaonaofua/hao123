@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的網址導航 - 上網從這裡開始</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 頂部工具欄 -->
+    <div class="top-bar">
+        <div class="container">
+            <span class="welcome">常用網址</span>
+            <div class="tools">
+                <span id="current-time"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主要搜索區域 -->
+    <div class="search-section">
+        <div class="container">
+            <div class="logo">
+                <h1>我的網址導航</h1>
+            </div>
+
+            <!-- 搜索欄區域 -->
+            <div class="search-box">
+                <div class="search-container">
+                    <!-- Google 搜索 -->
+                    <form action="https://www.google.com/search" method="get" target="_blank" class="search-form google-search">
+                        <input type="text" name="q" placeholder="請輸入搜索關鍵詞..." class="search-input">
+                        <button type="submit" class="search-btn">搜索</button>
+                    </form>
+
+                    <!-- 站內搜索 -->
+                    <div class="site-search-form">
+                        <input type="text" id="siteSearchInput" placeholder="搜索網站名稱或網址..." class="site-search-input">
+                        <button id="clearSiteSearch" class="site-search-btn">清除</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- 主要內容區域 -->
+    <div class="main-content">
+        <div class="container">
+            <!-- AI 聊天服務 -->
+            <div class="nav-row">
+                <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+                <a href="https://claude.ai/new" target="_blank">Claude AI</a>
+                <a href="https://gemini.google.com/app?hl=ja" target="_blank">Gemini</a>
+                <a href="https://chat.deepseek.com/" target="_blank">DeepSeek</a>
+            </div>
+
+            <!-- Google 服務 -->
+            <div class="nav-row">
+                <a href="https://mail.google.com/mail/u/0/" target="_blank">Gmail</a>
+                <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                <a href="https://www.blogger.com/blog/posts/3845044892552031624" target="_blank">Blogger</a>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://www.notion.so/f40761f8e0ae42948a64a3f67769522c" target="_blank">Notion</a>
+            </div>
+
+            <!-- 真如苑相關 -->
+            <div class="nav-row">
+                <a href="https://followers.shinnyo-en.or.jp/" target="_blank">真如苑日本</a>
+                <a href="https://intlattend.shinnyo.org/users/sign_in" target="_blank">國際登入</a>
+                <a href="http://followers.shinnyo-en.org.tw/FollowerWebsite/" target="_blank">真如苑台灣</a>
+                <a href="https://stream.shinnyo.tv/" target="_blank">真如苑TV</a>
+            </div>
+
+            <!-- 學習資源 -->
+            <div class="nav-row">
+                <a href="https://co2sou.github.io/wordList/" target="_blank">單字列表</a>
+                <a href="https://co2sou.github.io/aws-english/" target="_blank">AWS 英語</a>
+            </div>
+
+            <!-- 認證與學習平台 -->
+            <div class="nav-row">
+                <a href="https://hitachi-systems.udemy.com/organization/home/" target="_blank">Udemy</a>
+                <a href="https://qiita.com/flyaway/items/6d7e745e6cebb76f7f5a" target="_blank">Qiita</a>
+                <a href="https://login.us-east-1.auth.skillbuilder.aws/login?client_id=1dpmu9iun25qmeafo2m23busua&nonce=567e1ab531ba6533b6ed41be34aa5a31&redirect_uri=https%3A%2F%2Fawscertificationpractice.benchprep.com%2Fsso%2Foidc%2Faws-vibe%2Flogin&response_type=code&scope=openid&state=3ea6790bd846ab875afbea94f8cd8ee6#exams/answers/202131112/16915683" target="_blank">AWS 練習題</a>
+                <a href="https://skillbuilder.aws/search?searchText=aws-certified-solutions-architect-associate-official-practice-question-set-saa-c03-japanese-v2&showRedirectNotFoundBanner=true" target="_blank">AWS Skill Builder</a>
+                <a href="https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification" target="_blank">Azure AI 認證</a>
+                <a href="https://learn.microsoft.com/ja-jp/users/usou-6822/?tab=credentials-tab" target="_blank">Microsoft Learn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; 2025 我的網址導航 - 常用網址</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
