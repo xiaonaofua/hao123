@@ -23,13 +23,13 @@
 
 ## 在線訪問
 
-🌐 **網站地址**: [https://co2sou.github.io/hao123/](https://co2sou.github.io/hao123/)
+🌐 **網站地址**: [https://xiaonaofua.github.io/hao123/](https://xiaonaofua.github.io/hao123/)
 
 ## 本地運行
 
 1. 克隆項目到本地
 ```bash
-git clone https://github.com/co2sou/hao123.git
+git clone https://github.com/xiaonaofua/hao123.git
 cd hao123
 ```
 
